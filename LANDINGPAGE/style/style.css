@@ -1,0 +1,177 @@
+body{
+    background-color: #302541; 
+    color: #EAE6F5;          
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0px;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#TopoSite {
+    display: flex;
+    background-color: #58398b;
+    width: 100vw;
+    position: relative; 
+    left: 50%; 
+    right: 50%;
+    margin-left: -50vw; 
+    margin-right: -50vw;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    font-size: 26px;
+    line-height: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.title img{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 80px;
+    padding: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    color: #f0d5ff;
+    transition: 0.8s all;
+}
+a:hover{
+    color: white;
+}
+
+.TopoOpcoes {
+    border: 2px solid #ffffff;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 0 10px; 
+    color: white; 
+    transition: 0.8s all;
+}
+.TopoOpcoes:hover {
+    background-color: #ffffff; 
+    color: black; 
+}
+
+h1{
+    font-weight: 500;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 55px;
+}
+h2{
+    font-size: 50px;
+    line-height: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+span{
+    color: #7A55B5;
+}
+p{
+    line-height: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 5px;
+}
+img{
+    width: 600px;
+    border-radius: 40px;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 55px;
+}
+.image-main {
+    margin-left: auto; 
+}
+
+.Forms{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.Forms h2{
+
+    text-align: center;
+
+}
+
+.Forms p{
+
+    text-align: center;
+    line-height: 2px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-enviar{
+    height: 50px;
+    width: 20%;
+    background-color: #7A55B5;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    line-height: 10px;
+    transition: 1s all;
+
+}
+.btn-enviar:hover{
+    background-color: #2f1396;
+}
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    width: 50%;
+}
+
+textarea {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    width: 50%;
+    height: 100px; /* altura maior para facilitar o feedback */
+    resize: vertical; /* usuário pode redimensionar verticalmente */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer{
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #58398b;
+    margin-top: 20px;
+}
