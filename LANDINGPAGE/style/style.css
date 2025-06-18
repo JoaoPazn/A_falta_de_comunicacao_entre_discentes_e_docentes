@@ -10,7 +10,9 @@ body{
 }
 
 
-
+.conteudo-principal{
+    gap:100px;
+}
 
 header{
     display: flex;
